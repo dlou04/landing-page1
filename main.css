@@ -13,14 +13,14 @@ header {
     flex-direction: column;
 }
 .first-page {
-    background-color: lightpink;
+    background-color: rgb(122 42 82);
     padding-bottom: 20px;
     width: 100%;
 }
 
 .left h2 {
     font-size: 24px;
-    color: #f9faf8;
+    color: rgb(254 226 240);
     margin-left: 20px;
 }
 
@@ -41,6 +41,7 @@ ul {
 li {
     margin-left: 20px;
     transition: 1s;
+    color: #fee2f0;
 }
 
 li:hover {
@@ -56,10 +57,13 @@ li:hover {
 
 h1 {
     font-size: 48px;
-    color: #f9faf8;
+    color: rgb(254 226 240);
     font-weight: bolder;
 }
 
+.info-paragraphs p {
+    color: rgb(254 226 240);
+}
 p {
     margin-top: -20px;
 }
@@ -111,7 +115,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(219, 97, 158);
+    background-color: rgb(237, 163, 200);
     box-shadow: 2px 2px 3px black;
     border: 2px solid  rgb(219, 101, 160);
     cursor: pointer;
@@ -119,7 +123,7 @@ button:hover {
 
 .content {
     text-align: center;
-    background-color: rgb(253, 241, 242);
+    background-color: #fee2f0;
     
 }
 
@@ -127,7 +131,9 @@ button:hover {
   font-size: 36px;
   text-align: center;
   margin-top: 60px;
+  color: rgb(164 70 117);
 }
+
 
 .informational-pics {
     display: flex;
@@ -141,7 +147,7 @@ button:hover {
     object-fit: cover;
     height: 200px;
     width: 200px;
-    border: 3px solid hotpink;
+    border: 5px solid rgb(164 70 117);
     border-radius: 3px;
     flex: 1;
 }
@@ -149,5 +155,75 @@ button:hover {
 .picture-information {
     width: 265px;
 }
+
+.quote {
+    background-color: rgb(240 240 240);
+    height: 300px;
+}
+
+.quote-text {
+    color: rgb(121 42 82);
+    font-size: 36px;
+    width: 600px;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+.quote-text p {
+    margin-top: 40px;
+    margin-left: 380px;
+}
+
+
+.call-to-action {
+    background-color: #fee2f0;
+    height: 200px;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-direction: row;
+    row-gap: 0;
+    border-radius: 10px;
+    height: 150px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 280px;
+    background-color: hotpink;
+}
+
+.text-box {
+    height: 130px;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 400px;
+}
+
+.text-box1 {
+    height: 80px;
+    width: 400px;
+    color: #fee2f0;
+}
+
+.text-box2 {
+    margin-top: -70px;
+    width: 300px;
+    font-weight: 100;;
+    color: #fee2f0;
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:2px solid #fee2f0;
+    border-radius: 5px;
+    font-size:20px;
+    color: #fee2f0;
+}
+
+
 
 
