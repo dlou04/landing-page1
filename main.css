@@ -34,6 +34,12 @@ ul {
 
 li {
     margin-left: 20px;
+    transition: 1s;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .info {
@@ -83,4 +89,24 @@ img {
 span {
     color: hotpink;
     font-style: italic;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bolder;
+    border: 2px solid hotpink;
+    border-radius: 2px;;
+    background-color: hotpink;
+    padding: 10px;
+    margin-top: -15px;
+    margin-left: 200px;
+    box-shadow: 2px 2px 3px hotpink;
+    transition: 0.7s;
+}
+
+button:hover {
+    background-color: rgb(219, 97, 158);
+    box-shadow: 2px 2px 3px black;
+    border: 2px solid  rgb(219, 101, 160);
+    cursor: pointer;
 }
