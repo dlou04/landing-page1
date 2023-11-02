@@ -1,5 +1,6 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
 }
 
 header {
@@ -7,9 +8,14 @@ header {
     flex-direction: row;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
 .first-page {
     background-color: lightpink;
-    margin: -8px;
+    padding-bottom: 20px;
+    width: 100%;
 }
 
 .left h2 {
@@ -78,7 +84,7 @@ hr {
     margin-bottom: 10px;
     height: 2px;
 }
-img {
+.pic {
     height: 520px;
     width: 400px;
     vertical-align:top;
@@ -111,26 +117,37 @@ button:hover {
     cursor: pointer;
 }
 
-.second-page {
-    background-color: white;
+.content {
+    text-align: center;
+    background-color: rgb(253, 241, 242);
+    
 }
 
-.second-title {
+.second-title{
   font-size: 36px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .informational-pics {
     display: flex;
     flex-direction: row;
-    margin-left: -100;
     justify-content: space-between;
+    flex:1;
 }
 
 .info-pics {
-    margin-left: 0;
-    object-fit: contain;
-    height: 300px;
-    width: 300px;
+    margin: 40px 30px;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border: 3px solid hotpink;
+    border-radius: 3px;
+    flex: 1;
 }
+
+.picture-information {
+    width: 265px;
+}
+
+
