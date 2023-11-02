@@ -110,3 +110,27 @@ button:hover {
     border: 2px solid  rgb(219, 101, 160);
     cursor: pointer;
 }
+
+.second-page {
+    background-color: white;
+}
+
+.second-title {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.informational-pics {
+    display: flex;
+    flex-direction: row;
+    margin-left: -100;
+    justify-content: space-between;
+}
+
+.info-pics {
+    margin-left: 0;
+    object-fit: contain;
+    height: 300px;
+    width: 300px;
+}
