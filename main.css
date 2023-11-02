@@ -60,10 +60,27 @@ p {
 .info-text {
     width: 550px;
 }
+
+.info-text2 {
+    margin-top: 10px;
+}
+
+hr {
+    background-color: black;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2px;
+}
 img {
     height: 520px;
     width: 400px;
     vertical-align:top;
     margin-left: 260px;
     margin-top: 30px;
+}
+
+span {
+    color: hotpink;
+    font-style: italic;
 }
